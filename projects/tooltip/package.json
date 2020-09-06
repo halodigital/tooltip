@@ -1,0 +1,21 @@
+{
+    "name": "@halodigital/tooltip",
+    "version": "1.0.4",
+    "peerDependencies": {
+        "@angular/common": "^10.0.14",
+        "@angular/core": "^10.0.14"
+    },
+    "dependencies": {
+        "tslib": "^2.0.0"
+    },
+    "description": "Halo-Digital Tooltip",
+    "keywords": [
+        "Halo-Digital",
+        "halo-digital",
+        "halodigital",
+        "tooltip",
+        "tool-tip"
+    ],
+    "author": "Halo-Digital",
+    "license": "MIT"
+}

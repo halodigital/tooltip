@@ -1,0 +1,83 @@
+@import 'assets/styles/variables.scss';
+
+
+:host {
+
+    max-width: 200px;
+    padding: 5px 10px;
+    color: $darkBlueColor;
+    font-size: 12px;
+    font-family: 'Ubuntu Mono', monospace;
+    background-color: $whiteColor;
+    display: block;
+    position: fixed;
+    z-index: 9999;
+    box-shadow: 0 2px 15px 0 rgba($blueColor, 0.32);
+
+    &:before {
+        content: "";
+        position: absolute;
+        border-style: solid;
+    }
+
+    &.halo-tooltip-top-left:before {
+        @extend %top;
+        right: 10px;
+    }
+
+    &.halo-tooltip-top-right:before {
+        @extend %top;
+        left: 10px;
+    }
+
+    &.halo-tooltip-top-center:before {
+        @extend %top;
+        left: calc(50% - 5px);
+    }
+
+    &.halo-tooltip-bottom-left:before {
+        @extend %bottom;
+        right: 10px;
+    }
+
+    &.halo-tooltip-bottom-right:before {
+        @extend %bottom;
+        left: 10px;
+    }
+
+    &.halo-tooltip-bottom-center:before {
+        @extend %bottom;
+        left: calc(50% - 5px);
+    }
+
+    &.halo-tooltip-middle-left:before {
+        @extend %middle;
+        left: 100%;
+        border-left-width: 5px;
+        border-color: transparent transparent transparent $whiteColor;
+    }
+
+    &.halo-tooltip-middle-right:before {
+        @extend %middle;
+        right: 100%;
+        border-right-width: 5px;
+        border-color: transparent $whiteColor transparent transparent;
+    }
+
+}
+
+%top {
+    top: 100%;
+    border-top-width: 5px;
+    border-color: $whiteColor transparent transparent transparent;
+}
+
+%bottom {
+    bottom: 100%;
+    border-bottom-width: 5px;
+    border-color: transparent transparent $whiteColor transparent;
+}
+
+%middle {
+    top: 50%;
+}
