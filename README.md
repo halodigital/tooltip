@@ -10,27 +10,39 @@ This package contains a tooltip with the following features:
 
 Enjoy!
 
-
+<br />
 
 # Attributes #
 
-haloTooltip: string
+<b>haloTooltip:</b> string
+<br />
+<small>Text inside the tooltip</small>
 
-tooltipDelay: number (milliseconds)
+<b>tooltipDelay:</b> number
+<br />
+<small>How many milliseconds to wait before display the tooltip</small>
 
-tooltipPosition: 'bottom-center' | 'bottom-left' | 'bottom-right' | 'middle-left' | 'middle-right' | 'top-center' | 'top-left' | 'top-right'
+<b>tooltipPosition:</b> 'bottom-center' | 'bottom-left' | 'bottom-right' | 'middle-left' | 'middle-right' | 'top-center' | 'top-left' | 'top-right'
+<br />
+<small>The tooltip position relative to the parent element</small>
 
-enableEllipsis: boolean (Declare if the parent element text will be shrinked with ellipsis)
+<b>enableEllipsis:</b> boolean
+<br />
+<small>Declare if the parent element text will be shrinked with ellipsis</small>
 
-
+<br />
 
 # Example #
 
-&#60;div haloTooltip="Tooltip text"
-     tooltipDelay="1000"
-     tooltipPosition="top-center"
-     enableEllipsis="true"&#62;
+<code>
 
-     Parent text
+     <div haloTooltip="Tooltip text"
+          tooltipDelay="1000"
+          tooltipPosition="top-center"
+          enableEllipsis="true">
 
-&#60;/div&#62;
+          Parent text
+
+     </div>
+
+</code>
