@@ -1,4 +1,4 @@
-##### Tooltip by Halo-Digital #####
+# Tooltip by Halo-Digital #
 
 This package contains a tooltip with the following features:
 
@@ -11,7 +11,6 @@ This package contains a tooltip with the following features:
 Enjoy!
 
 
-### How to Use ###
 
 # Attributes #
 
@@ -24,13 +23,14 @@ tooltipPosition: 'bottom-center' | 'bottom-left' | 'bottom-right' | 'middle-left
 enableEllipsis: boolean (Declare if the parent element text will be shrinked with ellipsis)
 
 
+
 # Example #
 
-<div haloTooltip="Tooltip text"
+&#60;div haloTooltip="Tooltip text"
      tooltipDelay="1000"
      tooltipPosition="top-center"
-     enableEllipsis="true">
+     enableEllipsis="true"&#62;
 
      Parent text
 
-</div>
+&#60;/div&#62;
