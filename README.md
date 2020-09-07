@@ -31,9 +31,11 @@ Enjoy!
 
 ## Example ##
 
-`<div haloTooltip="Tooltip text"
+```
+<div haloTooltip="Tooltip text"
      tooltipDelay="1000"
      tooltipPosition="top-center"
      enableEllipsis="true">
      Parent text
-</div>`
+</div>
+```
