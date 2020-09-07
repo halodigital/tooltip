@@ -1,4 +1,4 @@
-# Tooltip by Halo-Digital #
+<h1>Tooltip by Halo-Digital</h1>
 
 This package contains a tooltip with the following features:
 
@@ -10,9 +10,8 @@ This package contains a tooltip with the following features:
 
 Enjoy!
 
-<br />
 
-# Attributes #
+<h2>Attributes</h2>
 
 <b>haloTooltip:</b> string
 <br />
@@ -36,17 +35,14 @@ Enjoy!
 <br />
 <small>Declare if the parent element text will be shrinked with ellipsis</small>
 
-<br />
 
-# Example #
+<h2>Example</h2>
 
 <code>
      <div haloTooltip="Tooltip text"
           tooltipDelay="1000"
           tooltipPosition="top-center"
           enableEllipsis="true">
-
           Parent text
-
      </div>
 </code>
