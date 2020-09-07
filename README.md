@@ -1,4 +1,4 @@
-<h1>Tooltip by Halo-Digital</h1>
+# Tooltip by Halo-Digital #
 
 This package contains a tooltip with the following features:
 
@@ -11,38 +11,29 @@ This package contains a tooltip with the following features:
 Enjoy!
 
 
-<h2>Attributes</h2>
+## Attributes ##
 
-<b>haloTooltip:</b> string
-<br />
-<small>Text inside the tooltip</small>
+**haloTooltip:** string
+_Text inside the tooltip_
 
-<b>tooltipDelay:</b> number
-<br />
-<small><b>Default:</b> 0<small>
-<br />
-<small>How many milliseconds to wait before display the tooltip</small>
+**tooltipDelay:** number
+_**Default:** 0_
+_How many milliseconds to wait before display the tooltip_
 
-<b>tooltipPosition:</b> 'bottom-center' | 'bottom-left' | 'bottom-right' | 'middle-left' | 'middle-right' | 'top-center' | 'top-left' | 'top-right'
-<br />
-<small><b>Default:</b> 'top-right'<small>
-<br />
-<small>The tooltip position relative to the parent element</small>
+**tooltipPosition:** 'bottom-center' | 'bottom-left' | 'bottom-right' | 'middle-left' | 'middle-right' | 'top-center' | 'top-left' | 'top-right'
+_**Default:** 'top-right'_
+_The tooltip position relative to the parent element_
 
-<b>enableEllipsis:</b> boolean
-<br />
-<small><b>Default:</b> false<small>
-<br />
-<small>Declare if the parent element text will be shrinked with ellipsis</small>
+**enableEllipsis:** boolean
+_**Default:** false_
+_Declare if the parent element text will be shrinked with ellipsis_
 
 
-<h2>Example</h2>
+## Example ##
 
-<code>
-     <div haloTooltip="Tooltip text"
-          tooltipDelay="1000"
-          tooltipPosition="top-center"
-          enableEllipsis="true">
-          Parent text
-     </div>
-</code>
+`<div haloTooltip="Tooltip text"
+     tooltipDelay="1000"
+     tooltipPosition="top-center"
+     enableEllipsis="true">
+     Parent text
+</div>`
