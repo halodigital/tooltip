@@ -17,16 +17,16 @@ Enjoy!
 <sub>Text inside the tooltip</sub>  
   
 **tooltipDelay:** number  
-_**Default:** 0_  
-_How many milliseconds to wait before display the tooltip_  
+<sub>Default: 0</sub>  
+<sub>How many milliseconds to wait before display the tooltip</sub>  
   
 **tooltipPosition:** 'bottom-center' | 'bottom-left' | 'bottom-right' | 'middle-left' | 'middle-right' | 'top-center' | 'top-left' | 'top-right'  
-_**Default:** 'top-right'_  
-_The tooltip position relative to the parent element_  
+<sub>Default: 'top-right'</sub>  
+<sub>The tooltip position relative to the parent element</sub>  
   
 **enableEllipsis:** boolean  
-_**Default:** false_  
-_Declare if the parent element text will be shrinked with ellipsis_
+<sub>Default: false</sub>  
+<sub>Declare if the parent element text will be shrinked with ellipsis</sub>
 
 
 ## Example ##
